@@ -1,0 +1,63 @@
+.contactMain {
+  background-color: rgb(235, 230, 230);
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  padding: 30px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-content: center;
+  justify-items: center;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 120px;
+}
+
+/* #penIcon #binIcon {
+  width: 120px;
+} */
+
+.box {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  height: 200px;
+  width: 350px;
+}
+
+.picProf {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nameLoc {
+  line-height: 10px;
+}
+
+.text {
+  line-height: 10px;
+}
+
+.boxIcons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+i {
+  padding: 7px;
+}
+
+.plusBox {
+  display: flex;
+  justify-content: center;
+
+  padding: 90px 90px 90px 90px;
+}
